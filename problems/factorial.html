@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    
+</body>
+<script>
+    //Write a JavaScript function to find the factorial of a number.
+     let factorialValue=1;
+     function factorial(value) {
+        if (value === 0) {
+        return 1;
+        }
+
+        let i;
+        for(i=value; i>1; i--){
+            factorialValue*=i;
+        }
+        return factorialValue;
+     }
+     //const number = prompt("Enter your Number : ")
+     const value = factorial(0);
+     console.log(value);
+     
+</script>
+</html>
